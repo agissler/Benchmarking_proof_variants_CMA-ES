@@ -195,6 +195,8 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
                     'verbose': -9
                     }
             
+            cma.evolution_strategy._CMASolutionDict = cma.evolution_strategy._CMASolutionDict_empty
+            
             es = cma.CMAEvolutionStrategy(propose_x0(), sigma, opts)
 
             #es.sp.cc = 1 # to set no cumulation for the covariance matrix

@@ -186,6 +186,7 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
                     'CSA_squared': True, #C^1 stepsize change
                     # 'CSA_dampfac': float('inf'),  # CAVEAT: test without step-size adaptation
                     'termination_callback': lambda es: problem.final_target_hit,
+                    'CSA_damp_mueff_exponent': 1, #change the scaling of d_sigma with mueff
                     #'CMA_recombination_weights': cma.recombination_weights.RecombinationWeights(popsize, 0.7), 
                     'popsize': popsize,  # 'popsize': 1 + int(4 * problem.dimension**0.5),
                     # 'CMA_cmean': cmean,
@@ -194,6 +195,8 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
                     'conditioncov_alleviate': [np.inf, np.inf],  # DO NOT REMOVE THIS
                     'verbose': -9
                     }
+            
+            cma.evolution_strategy._CMASolutionDict = cma.evolution_strategy._CMASolutionDict_empty
             
             es = cma.CMAEvolutionStrategy(propose_x0(), sigma, opts)
 
