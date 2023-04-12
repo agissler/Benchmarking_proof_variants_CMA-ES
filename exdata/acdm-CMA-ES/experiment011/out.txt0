@@ -1,0 +1,43 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_affine_invariant_squared_csa/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 0
+  batches = 5
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch000of5
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 18h13:50s
+|||||||:|| |||||||||| |||||||||| |||||||||| |||||||:
+   18h14:59s 2-D done in 2.3e-04 seconds/evaluations
+3D 18h14:59s
+||||||::|| |||||||||| |||||||||| |||||||||| ||||||::
+   18h18:01s 3-D done in 2.1e-04 seconds/evaluations
+5D 18h18:01s
+|||||:::|| |||||||||| |||||||||| |||||||||| :|||||::
+   18h24:45s 5-D done in 1.9e-04 seconds/evaluations
+10D 18h24:46s
+||||::::|| |||||||||| |||||||||| |||||||||| :|::::::
+   18h50:41s 10-D done in 1.6e-04 seconds/evaluations
+20D 18h50:42s
+||||::::|| |||||||||| |||||||||| ||||||:::: ||::::::
+   20h09:01s 20-D done in 1.6e-04 seconds/evaluations
+40D 20h09:06s
+||||::::|| |||||||||| |||||||||| ||||||:::: :|::::::
+   0h19:47s+1d 40-D done in 1.8e-04 seconds/evaluations
+*** Batch 0 of 5 batches finished in 6h05:57. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       2.3e-04
+      3       2.1e-04
+      5       1.9e-04
+     10       1.6e-04
+     20       1.6e-04
+     40       1.8e-04
+  -------------------------------------

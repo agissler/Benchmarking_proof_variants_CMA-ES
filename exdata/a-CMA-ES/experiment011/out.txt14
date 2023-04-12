@@ -1,0 +1,44 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_affine_invariant_normal_csa/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 14
+  batches = 15
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch014of15
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 21h54:09s
+|||||||||| |||||:
+   21h56:53s 2-D done in 2.7e-04 seconds/evaluations
+3D 21h56:53s
+|||||||||| |||||:
+   22h02:52s 3-D done in 2.5e-04 seconds/evaluations
+5D 22h02:52s
+|||||||||| ||||||
+   22h05:35s 5-D done in 2.3e-04 seconds/evaluations
+10D 22h05:36s
+|:|||||||| |||:|:
+
+   23h57:55s 10-D done in 2.2e-04 seconds/evaluations
+20D 23h57:58s
+|:|||||||| |||||:
+   4h13:47s+1d 20-D done in 2.5e-04 seconds/evaluations
+40D 4h14:03s+1d
+|:|||||||| ||::|:
+   20h37:45s+1d 40-D done in 3.0e-04 seconds/evaluations
+*** Batch 14 of 15 batches finished in 22h43:35. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       2.7e-04
+      3       2.5e-04
+      5       2.3e-04
+     10       2.2e-04
+     20       2.5e-04
+     40       3.0e-04
+  -------------------------------------

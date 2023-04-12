@@ -1,0 +1,43 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_squared_csa/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 1
+  batches = 10
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch001of10
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 11h00:29s
+|||||||||| |||||||||| ||||
+   11h00:39s 2-D done in 2.4e-04 seconds/evaluations
+3D 11h00:39s
+|||:|||||| |||||||||| |||:
+   11h02:11s 3-D done in 2.0e-04 seconds/evaluations
+5D 11h02:11s
+|||:|||||| |||||||||| |:|:
+   11h05:27s 5-D done in 1.7e-04 seconds/evaluations
+10D 11h05:28s
+||::|||||| |||||||||| ::|:
+   11h16:13s 10-D done in 1.4e-04 seconds/evaluations
+20D 11h16:14s
+||::|||||| ||||||||:: ::::
+   11h56:23s 20-D done in 1.4e-04 seconds/evaluations
+40D 11h56:24s
+||::|||||| ||||:|||:: |:::
+   13h45:29s 40-D done in 1.9e-04 seconds/evaluations
+*** Batch 1 of 10 batches finished in 2h44:59. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       2.4e-04
+      3       2.0e-04
+      5       1.7e-04
+     10       1.4e-04
+     20       1.4e-04
+     40       1.9e-04
+  -------------------------------------

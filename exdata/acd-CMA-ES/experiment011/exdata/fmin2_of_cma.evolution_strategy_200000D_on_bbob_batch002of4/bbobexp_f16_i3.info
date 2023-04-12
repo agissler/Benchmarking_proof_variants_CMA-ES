@@ -1,0 +1,18 @@
+suite = 'bbob', funcId = 16, DIM = 2, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM2_i3.dat, 2:356|8.1e-09, 91:5303|3.6e-09, 95:458|9.4e-09, 99:3592|5.4e-11
+suite = 'bbob', funcId = 16, DIM = 3, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM3_i3.dat, 2:2614|8.2e-09, 91:3027|3.1e-09, 95:877|3.6e-09, 99:968|1.6e-11
+suite = 'bbob', funcId = 16, DIM = 5, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM5_i3.dat, 2:5283|4.7e-09, 91:10964|1.5e-10, 95:18829|3.3e-09, 99:5299|2.9e-09
+suite = 'bbob', funcId = 16, DIM = 10, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM10_i3.dat, 2:138807|2.1e-10, 91:51105|5.4e-10, 95:82446|5.4e-11, 99:48805|4.1e-10
+suite = 'bbob', funcId = 16, DIM = 20, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM20_i3.dat, 2:228522|1.6e-11, 91:376423|2.0e-11, 95:380455|7.6e-12, 99:608048|2.2e-12
+suite = 'bbob', funcId = 16, DIM = 40, Precision = 1.000e-08, algId = 'ALG', coco_version = '', logger = 'bbob', data_format = 'bbob-new2'
+%
+data_f16/bbobexp_f16_DIM40_i3.dat, 2:1985648|3.6e-12, 91:4317670|6.2e-14, 95:976852|1.2e-11, 99:1820753|1.0e-12

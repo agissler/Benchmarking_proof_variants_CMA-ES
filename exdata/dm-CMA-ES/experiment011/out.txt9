@@ -1,0 +1,43 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/both_cumulation_squared_csa/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 9
+  batches = 15
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch009of15
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 21h54:09s
+|||||||||| |||||:
+   21h56:52s 2-D done in 3.2e-04 seconds/evaluations
+3D 21h56:52s
+||:||||||| |||||:
+   22h15:45s 3-D done in 2.4e-04 seconds/evaluations
+5D 22h15:45s
+|::||||||| |||||:
+   23h10:11s 5-D done in 2.3e-04 seconds/evaluations
+10D 23h10:12s
+|::||||||| |||:::
+   2h11:55s+1d 10-D done in 2.2e-04 seconds/evaluations
+20D 2h11:55s+1d
+|::||||||| ||::::
+   8h58:19s+1d 20-D done in 2.4e-04 seconds/evaluations
+40D 8h58:20s+1d
+|::||||||: ||::::
+   0h32:58s+2d 40-D done in 3.0e-04 seconds/evaluations
+*** Batch 9 of 15 batches finished in 26h38:48. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       3.2e-04
+      3       2.4e-04
+      5       2.3e-04
+     10       2.2e-04
+     20       2.4e-04
+     40       3.0e-04
+  -------------------------------------

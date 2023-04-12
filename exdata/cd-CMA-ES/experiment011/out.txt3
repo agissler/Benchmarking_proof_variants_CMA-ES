@@ -1,0 +1,50 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/stepsize_cumulation_squared_csa_mueff/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 3
+  batches = 4
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch003of4
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 23h58:36s
+|||||||||| |||||||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||||| |||||||||| |||||||:::
+   0h01:57s+1d 2-D done in 2.7e-04 seconds/evaluations
+3D 0h01:58s+1d
+|||||||||| |::::||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||||| ||||||||:| ||||||::::
+   0h09:20s+1d 3-D done in 2.3e-04 seconds/evaluations
+5D 0h09:20s+1d
+||||||||:: |::::||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||||| |||||||:|: |:||||:|::
+   0h22:02s+1d 5-D done in 1.8e-04 seconds/evaluations
+10D 0h22:03s+1d
+|||||||::: :::::||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||||| |||||:|::: ::::|:::::
+   1h12:19s+1d 10-D done in 1.6e-04 seconds/evaluations
+20D 1h12:19s+1d
+|||||||::: :::::||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||:|: |::::|:::: ::::::::::
+   3h36:25s+1d 20-D done in 1.4e-04 seconds/evaluations
+40D 3h36:26s+1d
+|||||||::: :::::||||| |||||||||| |||||||||| ||||||||||
+|||||||||| |||||||::: :::::::::: ::::::::::
+
+   11h34:56s+1d 40-D done in 1.6e-04 seconds/evaluations
+*** Batch 3 of 4 batches finished in 11h36:19. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       2.7e-04
+      3       2.3e-04
+      5       1.8e-04
+     10       1.6e-04
+     20       1.4e-04
+     40       1.6e-04
+  -------------------------------------

@@ -1,0 +1,43 @@
+mkl is not installed
+setting mkl threads num to 1
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-constrained-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-noisy-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-biobj-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-biobj-ext-benchmarkshortinfos.txt
+/home/armand.gissler/Benchmark_CMA_proof_variants/no_cumulation_normal_csa/experiment011/cocopp/bbob-largescale-benchmarkshortinfos.txt
+budget_multiplier = 200000
+batch:
+  current_batch = 25
+  batches = 30
+COCO INFO: Results will be output to folder exdata/fmin2_of_cma.evolution_strategy_200000D_on_bbob_batch025of30
+*** benchmarking fmin2 from cma.evolution_strategy on suite bbob ***
+2D 0h28:46s
+|||||||:
+   0h32:59s 2-D done in 3.3e-04 seconds/evaluations
+3D 0h33:01s
+|||||||:
+   0h42:17s 3-D done in 3.2e-04 seconds/evaluations
+5D 1h20:20s
+:||||||:
+   1h40:27s 5-D done in 3.2e-04 seconds/evaluations
+10D 2h38:33s
+:|||||||
+   3h08:19s 10-D done in 3.1e-04 seconds/evaluations
+20D 5h18:20s
+:||||||:
+   7h51:39s 20-D done in 2.9e-04 seconds/evaluations
+40D 11h53:40s
+:||||||:
+   17h58:11s 40-D done in 2.9e-04 seconds/evaluations
+*** Batch 25 of 30 batches finished in 17h29:25. Make sure to run *all* batches (via current_batch or batch=#/#) ***
+Timing summary:
+  dimension  median seconds/evaluations
+  -------------------------------------
+      2       3.3e-04
+      3       3.2e-04
+      5       3.2e-04
+     10       3.1e-04
+     20       2.9e-04
+     40       2.9e-04
+  -------------------------------------
