@@ -7,3 +7,4 @@ In order to prove convergence of CMA-ES, some modifications of the algorithms he
 [Experimental data](https://doi.org/10.5281/zenodo.7896421)
 
 [Post-processed data](https://agissler.github.io/Benchmarking_proof_variants_CMA-ES/ppdata/index.html)
+ 
